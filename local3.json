@@ -1,742 +1,12 @@
 {
-"edges": [
-{
-"source": 117,
-"target": 115
-},
-{
-"source": 117,
-"target": 67
-},
-{
-"source": 116,
-"target": 81
-},
-{
-"source": 115,
-"target": 89
-},
-{
-"source": 115,
-"target": 114
-},
-{
-"source": 114,
-"target": 113
-},
-{
-"source": 113,
-"target": 112
-},
-{
-"source": 113,
-"target": 111
-},
-{
-"source": 112,
-"target": 111
-},
-{
-"source": 112,
-"target": 109
-},
-{
-"source": 111,
-"target": 109
-},
-{
-"source": 111,
-"target": 110
-},
-{
-"source": 110,
-"target": 106
-},
-{
-"source": 110,
-"target": 109
-},
-{
-"source": 109,
-"target": 98
-},
-{
-"source": 109,
-"target": 92
-},
-{
-"source": 108,
-"target": 75
-},
-{
-"source": 108,
-"target": 104
-},
-{
-"source": 107,
-"target": 100
-},
-{
-"source": 107,
-"target": 60
-},
-{
-"source": 106,
-"target": 99
-},
-{
-"source": 106,
-"target": 104
-},
-{
-"source": 105,
-"target": 63
-},
-{
-"source": 104,
-"target": 88
-},
-{
-"source": 104,
-"target": 95
-},
-{
-"source": 103,
-"target": 97
-},
-{
-"source": 101,
-"target": 63
-},
-{
-"source": 101,
-"target": 55
-},
-{
-"source": 100,
-"target": 96
-},
-{
-"source": 100,
-"target": 77
-},
-{
-"source": 99,
-"target": 53
-},
-{
-"source": 99,
-"target": 95
-},
-{
-"source": 98,
-"target": 45
-},
-{
-"source": 98,
-"target": 92
-},
-{
-"source": 97,
-"target": 95
-},
-{
-"source": 97,
-"target": 96
-},
-{
-"source": 96,
-"target": 17
-},
-{
-"source": 96,
-"target": 83
-},
-{
-"source": 95,
-"target": 94
-},
-{
-"source": 95,
-"target": 90
-},
-{
-"source": 94,
-"target": 82
-},
-{
-"source": 92,
-"target": 49
-},
-{
-"source": 92,
-"target": 91
-},
-{
-"source": 91,
-"target": 28
-},
-{
-"source": 90,
-"target": 89
-},
-{
-"source": 90,
-"target": 27
-},
-{
-"source": 89,
-"target": 85
-},
-{
-"source": 89,
-"target": 83
-},
-{
-"source": 88,
-"target": 87
-},
-{
-"source": 88,
-"target": 87
-},
-{
-"source": 87,
-"target": 86
-},
-{
-"source": 87,
-"target": 85
-},
-{
-"source": 86,
-"target": 39
-},
-{
-"source": 86,
-"target": 33
-},
-{
-"source": 85,
-"target": 62
-},
-{
-"source": 85,
-"target": 79
-},
-{
-"source": 84,
-"target": 81
-},
-{
-"source": 84,
-"target": 81
-},
-{
-"source": 83,
-"target": 82
-},
-{
-"source": 83,
-"target": 66
-},
-{
-"source": 82,
-"target": 65
-},
-{
-"source": 81,
-"target": 2
-},
-{
-"source": 80,
-"target": 40
-},
-{
-"source": 80,
-"target": 33
-},
-{
-"source": 79,
-"target": 74
-},
-{
-"source": 79,
-"target": 31
-},
-{
-"source": 78,
-"target": 31
-},
-{
-"source": 77,
-"target": 3
-},
-{
-"source": 77,
-"target": 62
-},
-{
-"source": 76,
-"target": 70
-},
-{
-"source": 76,
-"target": 75
-},
-{
-"source": 75,
-"target": 74
-},
-{
-"source": 75,
-"target": 71
-},
-{
-"source": 74,
-"target": 73
-},
-{
-"source": 74,
-"target": 73
-},
-{
-"source": 73,
-"target": 72
-},
-{
-"source": 73,
-"target": 72
-},
-{
-"source": 72,
-"target": 71
-},
-{
-"source": 71,
-"target": 70
-},
-{
-"source": 71,
-"target": 70
-},
-{
-"source": 70,
-"target": 66
-},
-{
-"source": 70,
-"target": 28
-},
-{
-"source": 68,
-"target": 38
-},
-{
-"source": 67,
-"target": 38
-},
-{
-"source": 67,
-"target": 36
-},
-{
-"source": 66,
-"target": 40
-},
-{
-"source": 65,
-"target": 59
-},
-{
-"source": 65,
-"target": 59
-},
-{
-"source": 64,
-"target": 62
-},
-{
-"source": 64,
-"target": 52
-},
-{
-"source": 63,
-"target": 57
-},
-{
-"source": 63,
-"target": 58
-},
-{
-"source": 62,
-"target": 54
-},
-{
-"source": 62,
-"target": 61
-},
-{
-"source": 61,
-"target": 60
-},
-{
-"source": 61,
-"target": 59
-},
-{
-"source": 60,
-"target": 59
-},
-{
-"source": 60,
-"target": 57
-},
-{
-"source": 59,
-"target": 58
-},
-{
-"source": 59,
-"target": 58
-},
-{
-"source": 58,
-"target": 50
-},
-{
-"source": 58,
-"target": 52
-},
-{
-"source": 57,
-"target": 48
-},
-{
-"source": 57,
-"target": 56
-},
-{
-"source": 56,
-"target": 50
-},
-{
-"source": 56,
-"target": 53
-},
-{
-"source": 55,
-"target": 51
-},
-{
-"source": 55,
-"target": 54
-},
-{
-"source": 54,
-"target": 45
-},
-{
-"source": 54,
-"target": 51
-},
-{
-"source": 53,
-"target": 51
-},
-{
-"source": 52,
-"target": 12
-},
-{
-"source": 51,
-"target": 47
-},
-{
-"source": 51,
-"target": 47
-},
-{
-"source": 50,
-"target": 33
-},
-{
-"source": 50,
-"target": 49
-},
-{
-"source": 49,
-"target": 39
-},
-{
-"source": 49,
-"target": 43
-},
-{
-"source": 48,
-"target": 10
-},
-{
-"source": 46,
-"target": 36
-},
-{
-"source": 45,
-"target": 44
-},
-{
-"source": 45,
-"target": 43
-},
-{
-"source": 44,
-"target": 43
-},
-{
-"source": 44,
-"target": 37
-},
-{
-"source": 43,
-"target": 42
-},
-{
-"source": 43,
-"target": 42
-},
-{
-"source": 42,
-"target": 41
-},
-{
-"source": 41,
-"target": 39
-},
-{
-"source": 41,
-"target": 10
-},
-{
-"source": 40,
-"target": 18
-},
-{
-"source": 40,
-"target": 29
-},
-{
-"source": 39,
-"target": 38
-},
-{
-"source": 39,
-"target": 38
-},
-{
-"source": 38,
-"target": 37
-},
-{
-"source": 38,
-"target": 35
-},
-{
-"source": 37,
-"target": 36
-},
-{
-"source": 37,
-"target": 29
-},
-{
-"source": 36,
-"target": 25
-},
-{
-"source": 35,
-"target": 34
-},
-{
-"source": 35,
-"target": 17
-},
-{
-"source": 34,
-"target": 32
-},
-{
-"source": 34,
-"target": 29
-},
-{
-"source": 33,
-"target": 20
-},
-{
-"source": 33,
-"target": 23
-},
-{
-"source": 32,
-"target": 29
-},
-{
-"source": 31,
-"target": 18
-},
-{
-"source": 29,
-"target": 28
-},
-{
-"source": 29,
-"target": 28
-},
-{
-"source": 28,
-"target": 23
-},
-{
-"source": 28,
-"target": 26
-},
-{
-"source": 27,
-"target": 23
-},
-{
-"source": 27,
-"target": 23
-},
-{
-"source": 26,
-"target": 25
-},
-{
-"source": 26,
-"target": 16
-},
-{
-"source": 25,
-"target": 24
-},
-{
-"source": 25,
-"target": 23
-},
-{
-"source": 24,
-"target": 23
-},
-{
-"source": 24,
-"target": 21
-},
-{
-"source": 23,
-"target": 22
-},
-{
-"source": 23,
-"target": 17
-},
-{
-"source": 22,
-"target": 21
-},
-{
-"source": 22,
-"target": 21
-},
-{
-"source": 21,
-"target": 20
-},
-{
-"source": 21,
-"target": 20
-},
-{
-"source": 20,
-"target": 16
-},
-{
-"source": 20,
-"target": 17
-},
-{
-"source": 19,
-"target": 14
-},
-{
-"source": 18,
-"target": 3
-},
-{
-"source": 17,
-"target": 5
-},
-{
-"source": 16,
-"target": 11
-},
-{
-"source": 16,
-"target": 13
-},
-{
-"source": 14,
-"target": 4
-},
-{
-"source": 14,
-"target": 13
-},
-{
-"source": 13,
-"target": 4
-},
-{
-"source": 13,
-"target": 3
-},
-{
-"source": 11,
-"target": 10
-},
-{
-"source": 11,
-"target": 10
-},
-{
-"source": 10,
-"target": 8
-},
-{
-"source": 10,
-"target": 9
-},
-{
-"source": 5,
-"target": 3
-},
-{
-"source": 4,
-"target": 3
-},
-{
-"source": 4,
-"target": 1
-},
-{
-"source": 3,
-"target": 2
-}
-],
 "nodes": [
 {
+"followers": 134182,
+"weight": 134182,
+"followees": 232,
+"group": 0,
+"index": 0,
 "name": "MJ勺子",
-"group": 8,
 "topic": [
 "物流",
 "电子商务",
@@ -745,15 +15,15 @@
 "职业",
 "管理",
 "王小波"
-],
-"weight": 134178,
-"index": 0,
-"followers": 134178,
-"followees": 232
+]
 },
 {
+"followers": 152945,
+"weight": 152945,
+"followees": 114,
+"group": 0,
+"index": 1,
 "name": "摸摸谢",
-"group": 8,
 "topic": [
 "香水",
 "气味",
@@ -762,15 +32,15 @@
 "男士香水",
 "化学",
 "女性"
-],
-"weight": 152940,
-"index": 1,
-"followers": 152940,
-"followees": 114
+]
 },
 {
+"followers": 1907,
+"weight": 1907,
+"followees": 266,
+"group": 0,
+"index": 2,
 "name": "戴颖毅",
-"group": 8,
 "topic": [
 "设计",
 "知乎",
@@ -779,15 +49,15 @@
 "MacBook Pro",
 "Mac",
 "苹果产品"
-],
-"weight": 1907,
-"index": 2,
-"followers": 1907,
-"followees": 266
+]
 },
 {
+"followers": 421590,
+"weight": 421590,
+"followees": 430,
+"group": 0,
+"index": 3,
 "name": "陈柏龄",
-"group": 8,
 "topic": [
 "健身",
 "文学",
@@ -796,15 +66,15 @@
 "文学理论",
 "教育",
 "历史"
-],
-"weight": 421576,
-"index": 3,
-"followers": 421576,
-"followees": 430
+]
 },
 {
+"followers": 229309,
+"weight": 229309,
+"followees": 48,
+"group": 0,
+"index": 4,
 "name": "斌卡",
-"group": 8,
 "topic": [
 "健身",
 "运动",
@@ -813,15 +83,15 @@
 "美食",
 "医学",
 "电影"
-],
-"weight": 229284,
-"index": 4,
-"followers": 229284,
-"followees": 48
+]
 },
 {
+"followers": 80586,
+"weight": 80586,
+"followees": 424,
+"group": 0,
+"index": 5,
 "name": "蔓玫",
-"group": 8,
 "topic": [
 "植物",
 "花卉",
@@ -830,15 +100,15 @@
 "绘画",
 "自然科学",
 "神话"
-],
-"weight": 80579,
-"index": 5,
-"followers": 80579,
-"followees": 424
+]
 },
 {
+"followers": 100291,
+"weight": 100291,
+"followees": 217,
+"group": 0,
+"index": 6,
 "name": "猪小宝",
-"group": 8,
 "topic": [
 "土木工程",
 "建筑",
@@ -847,24 +117,24 @@
 "结构设计",
 "地震",
 "结构力学"
-],
-"weight": 100286,
-"index": 6,
-"followers": 100286,
-"followees": 217
+]
 },
 {
-"name": "poem",
-"group": 8,
-"topic": [],
-"weight": 33005,
+"followers": 33007,
+"weight": 33007,
+"followees": 139,
+"group": 0,
 "index": 7,
-"followers": 33005,
-"followees": 139
+"name": "poem",
+"topic": []
 },
 {
+"followers": 4303,
+"weight": 4303,
+"followees": 85,
+"group": 0,
+"index": 8,
 "name": "哲晓",
-"group": 8,
 "topic": [
 "环境保护",
 "环境",
@@ -873,15 +143,15 @@
 "法律",
 "摄影",
 "社交网络"
-],
-"weight": 4303,
-"index": 8,
-"followers": 4303,
-"followees": 85
+]
 },
 {
+"followers": 66623,
+"weight": 66623,
+"followees": 46,
+"group": 0,
+"index": 9,
 "name": "黄璞琳",
-"group": 8,
 "topic": [
 "公司法",
 "商标法",
@@ -890,15 +160,15 @@
 "旅游",
 "豆瓣",
 "竞争法"
-],
-"weight": 66612,
-"index": 9,
-"followers": 66612,
-"followees": 46
+]
 },
 {
+"followers": 440567,
+"weight": 440567,
+"followees": 1868,
+"group": 0,
+"index": 10,
 "name": "Raymond Wang",
-"group": 8,
 "topic": [
 "法律",
 "风险投资（VC）",
@@ -907,15 +177,15 @@
 "私募股权（PE）",
 "知识产权",
 "房地产"
-],
-"weight": 440546,
-"index": 10,
-"followers": 440546,
-"followees": 1868
+]
 },
 {
+"followers": 17802,
+"weight": 17802,
+"followees": 379,
+"group": 0,
+"index": 11,
 "name": "游云庭律师",
-"group": 8,
 "topic": [
 "法律",
 "律师",
@@ -924,15 +194,15 @@
 "创业法务",
 "iPhone",
 "腾讯"
-],
-"weight": 17802,
-"index": 11,
-"followers": 17802,
-"followees": 379
+]
 },
 {
+"followers": 13559,
+"weight": 13559,
+"followees": 39,
+"group": 0,
+"index": 12,
 "name": "某人",
-"group": 8,
 "topic": [
 "餐饮",
 "创业",
@@ -941,15 +211,15 @@
 "快餐",
 "商业",
 "创业公司"
-],
-"weight": 13559,
-"index": 12,
-"followers": 13559,
-"followees": 39
+]
 },
 {
+"followers": 152044,
+"weight": 152044,
+"followees": 88,
+"group": 0,
+"index": 13,
 "name": "苗力",
-"group": 8,
 "topic": [
 "健康",
 "生物学",
@@ -958,15 +228,15 @@
 "美食",
 "旅行",
 "生活方式"
-],
-"weight": 152040,
-"index": 13,
-"followers": 152040,
-"followees": 88
+]
 },
 {
+"followers": 432346,
+"weight": 432346,
+"followees": 182,
+"group": 0,
+"index": 14,
 "name": "田吉顺",
-"group": 8,
 "topic": [
 "医学",
 "健康",
@@ -975,26 +245,26 @@
 "医疗",
 "妇产科学",
 "妇科"
-],
-"weight": 432337,
-"index": 14,
-"followers": 432337,
-"followees": 182
+]
 },
 {
+"followers": 16034,
+"weight": 16034,
+"followees": 56,
+"group": 0,
+"index": 15,
 "name": "付大麦",
-"group": 8,
 "topic": [
 "证券投资"
-],
-"weight": 16034,
-"index": 15,
-"followers": 16034,
-"followees": 56
+]
 },
 {
+"followers": 150474,
+"weight": 150474,
+"followees": 340,
+"group": 0,
+"index": 16,
 "name": "田浩",
-"group": 8,
 "topic": [
 "法律",
 "电影",
@@ -1003,15 +273,15 @@
 "文化",
 "生活方式",
 "阅读"
-],
-"weight": 150471,
-"index": 16,
-"followers": 150471,
-"followees": 340
+]
 },
 {
+"followers": 6288,
+"weight": 6288,
+"followees": 73,
+"group": 0,
+"index": 17,
 "name": "董卓瑶",
-"group": 8,
 "topic": [
 "文学",
 "美学",
@@ -1020,15 +290,15 @@
 "公益",
 "社会学",
 "艺术史"
-],
-"weight": 6288,
-"index": 17,
-"followers": 6288,
-"followees": 73
+]
 },
 {
+"followers": 2255,
+"weight": 2255,
+"followees": 5014,
+"group": 0,
+"index": 18,
 "name": "Zano",
-"group": 8,
 "topic": [
 "航运",
 "知乎",
@@ -1037,15 +307,15 @@
 "知乎指南",
 "招聘技巧",
 "旅游"
-],
-"weight": 2255,
-"index": 18,
-"followers": 2255,
-"followees": 5014
+]
 },
 {
+"followers": 8755,
+"weight": 8755,
+"followees": 261,
+"group": 0,
+"index": 19,
 "name": "老豺",
-"group": 8,
 "topic": [
 "口腔医学",
 "医学",
@@ -1054,15 +324,15 @@
 "飞机",
 "航空",
 "美食"
-],
-"weight": 8755,
-"index": 19,
-"followers": 8755,
-"followees": 261
+]
 },
 {
+"followers": 86917,
+"weight": 86917,
+"followees": 1748,
+"group": 1,
+"index": 20,
 "name": "朱博文",
-"group": 8,
 "topic": [
 "电影",
 "文学",
@@ -1071,15 +341,15 @@
 "剧本",
 "调查类问题",
 "电影剧本"
-],
-"weight": 86906,
-"index": 20,
-"followers": 86906,
-"followees": 1748
+]
 },
 {
+"followers": 129370,
+"weight": 129370,
+"followees": 286,
+"group": 1,
+"index": 21,
 "name": "关雅荻",
-"group": 8,
 "topic": [
 "电影",
 "跑步",
@@ -1088,15 +358,15 @@
 "电影院",
 "编剧",
 "山地越野跑"
-],
-"weight": 129367,
-"index": 21,
-"followers": 129367,
-"followees": 286
+]
 },
 {
+"followers": 578281,
+"weight": 578281,
+"followees": 289,
+"group": 1,
+"index": 22,
 "name": "张小北",
-"group": 8,
 "topic": [
 "电影",
 "导演",
@@ -1105,15 +375,15 @@
 "军事",
 "剧本",
 "小说"
-],
-"weight": 578247,
-"index": 22,
-"followers": 578247,
-"followees": 289
+]
 },
 {
+"followers": 68285,
+"weight": 68285,
+"followees": 146,
+"group": 1,
+"index": 23,
 "name": "木易",
-"group": 8,
 "topic": [
 "电影",
 "音乐",
@@ -1122,15 +392,15 @@
 "历史",
 "生活",
 "旅行"
-],
-"weight": 68275,
-"index": 23,
-"followers": 68275,
-"followees": 146
+]
 },
 {
+"followers": 12909,
+"weight": 12909,
+"followees": 233,
+"group": 1,
+"index": 24,
 "name": "邹波",
-"group": 8,
 "topic": [
 "电影",
 "美剧",
@@ -1139,15 +409,15 @@
 "苹果公司 (Apple Inc.)",
 "北京生活",
 "iPad"
-],
-"weight": 12909,
-"index": 24,
-"followers": 12909,
-"followees": 233
+]
 },
 {
+"followers": 255049,
+"weight": 255049,
+"followees": 371,
+"group": 1,
+"index": 25,
 "name": "罗登",
-"group": 8,
 "topic": [
 "电影",
 "政治",
@@ -1156,15 +426,15 @@
 "中国",
 "导演",
 "生活"
-],
-"weight": 255012,
-"index": 25,
-"followers": 255012,
-"followees": 371
+]
 },
 {
+"followers": 97355,
+"weight": 97355,
+"followees": 360,
+"group": 1,
+"index": 26,
 "name": "楚沐风",
-"group": 8,
 "topic": [
 "电影",
 "影视评论",
@@ -1173,15 +443,15 @@
 "豆瓣",
 "情感",
 "影视"
-],
-"weight": 97334,
-"index": 26,
-"followers": 97334,
-"followees": 360
+]
 },
 {
+"followers": 17753,
+"weight": 17753,
+"followees": 245,
+"group": 1,
+"index": 27,
 "name": "丁钰",
-"group": 8,
 "topic": [
 "阅读",
 "写作",
@@ -1189,15 +459,15 @@
 "日本文化",
 "武侠",
 "日剧"
-],
-"weight": 17753,
-"index": 27,
-"followers": 17753,
-"followees": 245
+]
 },
 {
+"followers": 3580,
+"weight": 3580,
+"followees": 395,
+"group": 2,
+"index": 28,
 "name": "孟章",
-"group": 8,
 "topic": [
 "音乐",
 "杂志",
@@ -1206,15 +476,15 @@
 "传媒",
 "媒体",
 "古典音乐"
-],
-"weight": 3580,
-"index": 28,
-"followers": 3580,
-"followees": 395
+]
 },
 {
+"followers": 387064,
+"weight": 387064,
+"followees": 610,
+"group": 2,
+"index": 29,
 "name": "不鳥萬如一",
-"group": 8,
 "topic": [
 "音乐",
 "古典音乐",
@@ -1223,15 +493,15 @@
 "苹果公司 (Apple Inc.)",
 "阅读",
 "互联网"
-],
-"weight": 387064,
-"index": 29,
-"followers": 387064,
-"followees": 610
+]
 },
 {
+"followers": 871,
+"weight": 871,
+"followees": 203,
+"group": 2,
+"index": 30,
 "name": "abing",
-"group": 8,
 "topic": [
 "乐队",
 "效果器",
@@ -1240,15 +510,15 @@
 "科幻",
 "三岛由纪夫",
 "游戏开发"
-],
-"weight": 871,
-"index": 30,
-"followers": 871,
-"followees": 203
+]
 },
 {
+"followers": 60291,
+"weight": 60291,
+"followees": 353,
+"group": 2,
+"index": 31,
 "name": "李奇",
-"group": 8,
 "topic": [
 "知乎",
 "奇虎 360",
@@ -1257,30 +527,30 @@
 "知乎社区",
 "交互设计",
 "博客"
-],
-"weight": 60290,
-"index": 31,
-"followers": 60290,
-"followees": 353
+]
 },
 {
+"followers": 22475,
+"weight": 22475,
+"followees": 97,
+"group": 2,
+"index": 32,
 "name": "穆纛雠",
-"group": 8,
 "topic": [
 "音乐",
 "说唱（Rap）",
 "加拿大",
 "环境工程",
 "英文歌词"
-],
-"weight": 22474,
-"index": 32,
-"followers": 22474,
-"followees": 97
+]
 },
 {
+"followers": 1561,
+"weight": 1561,
+"followees": 1595,
+"group": 2,
+"index": 33,
 "name": "AmyLewis",
-"group": 8,
 "topic": [
 "调查类问题",
 "旅行",
@@ -1289,15 +559,15 @@
 "知乎",
 "MacBook Pro",
 "iPhone"
-],
-"weight": 1561,
-"index": 33,
-"followers": 1561,
-"followees": 1595
+]
 },
 {
+"followers": 36960,
+"weight": 36960,
+"followees": 160,
+"group": 2,
+"index": 34,
 "name": "米叔",
-"group": 8,
 "topic": [
 "音乐",
 "乐器",
@@ -1306,15 +576,15 @@
 "推理小说",
 "MG101",
 "推理"
-],
-"weight": 36959,
-"index": 34,
-"followers": 36959,
-"followees": 160
+]
 },
 {
+"followers": 1562,
+"weight": 1562,
+"followees": 225,
+"group": 2,
+"index": 35,
 "name": "Adam Sun",
-"group": 8,
 "topic": [
 "音乐",
 "摇滚乐",
@@ -1323,15 +593,15 @@
 "心理学",
 "流行音乐",
 "英语"
-],
-"weight": 1562,
-"index": 35,
-"followers": 1562,
-"followees": 225
+]
 },
 {
+"followers": 69300,
+"weight": 69300,
+"followees": 687,
+"group": 2,
+"index": 36,
 "name": "沈晓波",
-"group": 8,
 "topic": [
 "足球",
 "历史",
@@ -1340,15 +610,15 @@
 "中国历史",
 "电子商务",
 "摇滚乐"
-],
-"weight": 69277,
-"index": 36,
-"followers": 69277,
-"followees": 687
+]
 },
 {
+"followers": 94739,
+"weight": 94739,
+"followees": 168,
+"group": 2,
+"index": 37,
 "name": "阚欧礼",
-"group": 8,
 "topic": [
 "音乐",
 "混音",
@@ -1357,15 +627,15 @@
 "互联网",
 "音乐人",
 "咖啡馆"
-],
-"weight": 94733,
-"index": 37,
-"followers": 94733,
-"followees": 168
+]
 },
 {
+"followers": 40859,
+"weight": 40859,
+"followees": 10,
+"group": 2,
+"index": 38,
 "name": "丁勾",
-"group": 8,
 "topic": [
 "音乐",
 "电影",
@@ -1374,15 +644,15 @@
 "动漫",
 "阅读",
 "人文"
-],
-"weight": 40857,
-"index": 38,
-"followers": 40857,
-"followees": 10
+]
 },
 {
+"followers": 2664,
+"weight": 2664,
+"followees": 459,
+"group": 2,
+"index": 39,
 "name": "舟行",
-"group": 8,
 "topic": [
 "音乐",
 "电影",
@@ -1391,15 +661,15 @@
 "人际交往",
 "摄影",
 "教育"
-],
-"weight": 2664,
-"index": 39,
-"followers": 2664,
-"followees": 459
+]
 },
 {
+"followers": 738404,
+"weight": 738404,
+"followees": 9043,
+"group": 2,
+"index": 40,
 "name": "黄继新",
-"group": 8,
 "topic": [
 "知乎指南",
 "苹果公司 (Apple Inc.)",
@@ -1408,15 +678,15 @@
 "风险投资（VC）",
 "电影",
 "新浪微博"
-],
-"weight": 738393,
-"index": 40,
-"followers": 738393,
-"followees": 9043
+]
 },
 {
+"followers": 32231,
+"weight": 32231,
+"followees": 240,
+"group": 2,
+"index": 41,
 "name": "跳日天",
-"group": 8,
 "topic": [
 "音乐",
 "唱歌",
@@ -1425,15 +695,15 @@
 "逻辑",
 "数学",
 "魔兽世界"
-],
-"weight": 32231,
-"index": 41,
-"followers": 32231,
-"followees": 240
+]
 },
 {
+"followers": 162164,
+"weight": 162164,
+"followees": 193,
+"group": 2,
+"index": 42,
 "name": "梁欢",
-"group": 8,
 "topic": [
 "NBA",
 "音乐",
@@ -1442,15 +712,15 @@
 "摇滚乐",
 "电影",
 "史蒂夫·乔布斯（Steve Jobs）"
-],
-"weight": 162163,
-"index": 42,
-"followers": 162163,
-"followees": 193
+]
 },
 {
+"followers": 6451,
+"weight": 6451,
+"followees": 496,
+"group": 2,
+"index": 43,
 "name": "RAX XU",
-"group": 8,
 "topic": [
 "音乐",
 "电影",
@@ -1459,15 +729,15 @@
 "生活",
 "美术",
 "政治"
-],
-"weight": 6451,
-"index": 43,
-"followers": 6451,
-"followees": 496
+]
 },
 {
+"followers": 2106,
+"weight": 2106,
+"followees": 214,
+"group": 2,
+"index": 44,
 "name": "贝塞克",
-"group": 8,
 "topic": [
 "音乐",
 "电子音乐",
@@ -1476,15 +746,15 @@
 "音乐人",
 "音频行业",
 "录音设备"
-],
-"weight": 2105,
-"index": 44,
-"followers": 2105,
-"followees": 214
+]
 },
 {
+"followers": 165849,
+"weight": 165849,
+"followees": 420,
+"group": 2,
+"index": 45,
 "name": "邓柯",
-"group": 8,
 "topic": [
 "音乐",
 "电影",
@@ -1493,15 +763,15 @@
 "互联网",
 "游戏",
 "媒体"
-],
-"weight": 165847,
-"index": 45,
-"followers": 165847,
-"followees": 420
+]
 },
 {
+"followers": 212378,
+"weight": 212378,
+"followees": 85,
+"group": 2,
+"index": 46,
 "name": "大果",
-"group": 8,
 "topic": [
 "足球",
 "奥林匹克运动会‭",
@@ -1509,15 +779,15 @@
 "西班牙足球甲级联赛（La Liga）",
 "皇家马德里（Real Madrid）",
 "Don‘t Starve（游戏）"
-],
-"weight": 212374,
-"index": 46,
-"followers": 212374,
-"followees": 85
+]
 },
 {
+"followers": 27273,
+"weight": 27273,
+"followees": 42,
+"group": 2,
+"index": 47,
 "name": "徐惟能",
-"group": 8,
 "topic": [
 "经济学",
 "经济",
@@ -1526,15 +796,15 @@
 "美国",
 "美国签证",
 "经济学常识"
-],
-"weight": 27273,
-"index": 47,
-"followers": 27273,
-"followees": 42
+]
 },
 {
+"followers": 266570,
+"weight": 266570,
+"followees": 491,
+"group": 3,
+"index": 48,
 "name": "Luo Patrick",
-"group": 8,
 "topic": [
 "首次公开募股（IPO）",
 "金融",
@@ -1543,15 +813,15 @@
 "会计",
 "比特币 (Bitcoin)",
 "企业并购"
-],
-"weight": 266566,
-"index": 48,
-"followers": 266566,
-"followees": 491
+]
 },
 {
+"followers": 93150,
+"weight": 93150,
+"followees": 242,
+"group": 3,
+"index": 49,
 "name": "Danny W",
-"group": 8,
 "topic": [
 "情感",
 "生活",
@@ -1560,15 +830,15 @@
 "心理学",
 "互联网",
 "商业"
-],
-"weight": 93151,
-"index": 49,
-"followers": 93151,
-"followees": 242
+]
 },
 {
+"followers": 4105,
+"weight": 4105,
+"followees": 1674,
+"group": 3,
+"index": 50,
 "name": "程方航",
-"group": 8,
 "topic": [
 "调查类问题",
 "情感",
@@ -1577,15 +847,15 @@
 "互联网",
 "新浪微博",
 "法律"
-],
-"weight": 4105,
-"index": 50,
-"followers": 4105,
-"followees": 1674
+]
 },
 {
+"followers": 263224,
+"weight": 263224,
+"followees": 74,
+"group": 3,
+"index": 51,
 "name": "chenqin",
-"group": 8,
 "topic": [
 "经济学",
 "经济",
@@ -1594,15 +864,15 @@
 "金融",
 "人口学",
 "宏观经济学"
-],
-"weight": 263206,
-"index": 51,
-"followers": 263206,
-"followees": 74
+]
 },
 {
+"followers": 4722,
+"weight": 4722,
+"followees": 90,
+"group": 3,
+"index": 52,
 "name": "doknow",
-"group": 8,
 "topic": [
 "支付宝",
 "互联网金融",
@@ -1611,15 +881,15 @@
 "市场营销",
 "职业发展",
 "音乐"
-],
-"weight": 4722,
-"index": 52,
-"followers": 4722,
-"followees": 90
+]
 },
 {
+"followers": 48215,
+"weight": 48215,
+"followees": 514,
+"group": 3,
+"index": 53,
 "name": "南区熊猫",
-"group": 8,
 "topic": [
 "信托",
 "金融",
@@ -1628,15 +898,15 @@
 "担保",
 "信托公司",
 "美国最高法院"
-],
-"weight": 48212,
-"index": 53,
-"followers": 48212,
-"followees": 514
+]
 },
 {
+"followers": 58401,
+"weight": 58401,
+"followees": 170,
+"group": 3,
+"index": 54,
 "name": "大猫布丁",
-"group": 8,
 "topic": [
 "电影",
 "互联网产品",
@@ -1645,15 +915,15 @@
 "科幻小说",
 "商业",
 "传播学"
-],
-"weight": 58401,
-"index": 54,
-"followers": 58401,
-"followees": 170
+]
 },
 {
+"followers": 26374,
+"weight": 26374,
+"followees": 365,
+"group": 3,
+"index": 55,
 "name": "Mu Tian",
-"group": 8,
 "topic": [
 "经济",
 "经济学",
@@ -1662,15 +932,15 @@
 "证券",
 "风险投资（VC）",
 "金融学"
-],
-"weight": 26373,
-"index": 55,
-"followers": 26373,
-"followees": 365
+]
 },
 {
+"followers": 12951,
+"weight": 12951,
+"followees": 73,
+"group": 3,
+"index": 56,
 "name": "Oleg Vodnik",
-"group": 8,
 "topic": [
 "法律",
 "金融",
@@ -1679,15 +949,15 @@
 "经济",
 "财务",
 "税收"
-],
-"weight": 12951,
-"index": 56,
-"followers": 12951,
-"followees": 73
+]
 },
 {
+"followers": 43211,
+"weight": 43211,
+"followees": 26,
+"group": 3,
+"index": 57,
 "name": "李东旭",
-"group": 8,
 "topic": [
 "会计",
 "审计",
@@ -1696,15 +966,15 @@
 "会计师事务所",
 "会计知识",
 "阅读"
-],
-"weight": 43211,
-"index": 57,
-"followers": 43211,
-"followees": 26
+]
 },
 {
+"followers": 4684,
+"weight": 4684,
+"followees": 235,
+"group": 3,
+"index": 58,
 "name": "杨晓帆",
-"group": 8,
 "topic": [
 "互联网",
 "创业",
@@ -1713,15 +983,15 @@
 "风险投资（VC）",
 "创业公司",
 "微博"
-],
-"weight": 4684,
-"index": 58,
-"followers": 4684,
-"followees": 235
+]
 },
 {
+"followers": 3107,
+"weight": 3107,
+"followees": 623,
+"group": 3,
+"index": 59,
 "name": "何德文",
-"group": 8,
 "topic": [
 "创业",
 "风险投资（VC）",
@@ -1730,15 +1000,15 @@
 "投资",
 "天使投资",
 "融资"
-],
-"weight": 3107,
-"index": 59,
-"followers": 3107,
-"followees": 623
+]
 },
 {
+"followers": 79532,
+"weight": 79532,
+"followees": 151,
+"group": 3,
+"index": 60,
 "name": "Alex",
-"group": 8,
 "topic": [
 "投资",
 "理财",
@@ -1747,15 +1017,15 @@
 "银行",
 "债券",
 "经济"
-],
-"weight": 79530,
-"index": 60,
-"followers": 79530,
-"followees": 151
+]
 },
 {
+"followers": 10757,
+"weight": 10757,
+"followees": 895,
+"group": 3,
+"index": 61,
 "name": "Adrian G",
-"group": 8,
 "topic": [
 "投资",
 "美股",
@@ -1764,15 +1034,15 @@
 "数据挖掘",
 "SQL",
 "尽职调查"
-],
-"weight": 10757,
-"index": 61,
-"followers": 10757,
-"followees": 895
+]
 },
 {
+"followers": 91783,
+"weight": 91783,
+"followees": 189,
+"group": 3,
+"index": 62,
 "name": "Ronnie X",
-"group": 8,
 "topic": [
 "电影",
 "美股",
@@ -1781,15 +1051,15 @@
 "互联网",
 "商业",
 "调查类问题"
-],
-"weight": 91778,
-"index": 62,
-"followers": 91778,
-"followees": 189
+]
 },
 {
+"followers": 211876,
+"weight": 211876,
+"followees": 41,
+"group": 3,
+"index": 63,
 "name": "MrToyy",
-"group": 8,
 "topic": [
 "财务",
 "金融",
@@ -1798,28 +1068,28 @@
 "房地产",
 "用户体验设计",
 "成人内容"
-],
-"weight": 211874,
-"index": 63,
-"followers": 211874,
-"followees": 41
+]
 },
 {
+"followers": 1083,
+"weight": 1083,
+"followees": 9,
+"group": 3,
+"index": 64,
 "name": "唐珣",
-"group": 8,
 "topic": [
 "互联网",
 "天使投资人",
 "互联网金融"
-],
-"weight": 1083,
-"index": 64,
-"followers": 1083,
-"followees": 9
+]
 },
 {
+"followers": 7140,
+"weight": 7140,
+"followees": 57,
+"group": 3,
+"index": 65,
 "name": "熊伟铭",
-"group": 8,
 "topic": [
 "风险投资（VC）",
 "创业",
@@ -1828,15 +1098,15 @@
 "腾讯",
 "豆瓣",
 "Path"
-],
-"weight": 7141,
-"index": 65,
-"followers": 7141,
-"followees": 57
+]
 },
 {
+"followers": 3585,
+"weight": 3585,
+"followees": 2214,
+"group": 3,
+"index": 66,
 "name": "陈悦天",
-"group": 8,
 "topic": [
 "SNH48",
 "AKB48",
@@ -1845,15 +1115,15 @@
 "阅读",
 "日本",
 "投资"
-],
-"weight": 3581,
-"index": 66,
-"followers": 3581,
-"followees": 2214
+]
 },
 {
+"followers": 342973,
+"weight": 342973,
+"followees": 45,
+"group": 4,
+"index": 67,
 "name": "马伯庸",
-"group": 8,
 "topic": [
 "历史",
 "三国",
@@ -1862,15 +1132,15 @@
 "市场营销",
 "编剧",
 "人文"
-],
-"weight": 342943,
-"index": 67,
-"followers": 342943,
-"followees": 45
+]
 },
 {
+"followers": 31931,
+"weight": 31931,
+"followees": 160,
+"group": 4,
+"index": 68,
 "name": "Roonherzog",
-"group": 8,
 "topic": [
 "欧洲历史",
 "中世纪",
@@ -1879,24 +1149,24 @@
 "哲学",
 "翻译",
 "欧洲文化"
-],
-"weight": 31931,
-"index": 68,
-"followers": 31931,
-"followees": 160
+]
 },
 {
-"name": "张佳玮",
-"group": 8,
-"topic": [],
-"weight": 965065,
+"followers": 965095,
+"weight": 965095,
+"followees": 71,
+"group": 4,
 "index": 69,
-"followers": 965065,
-"followees": 71
+"name": "张佳玮",
+"topic": []
 },
 {
+"followers": 2984,
+"weight": 2984,
+"followees": 181,
+"group": 4,
+"index": 70,
 "name": "黄健",
-"group": 8,
 "topic": [
 "阅读",
 "杂志",
@@ -1905,15 +1175,15 @@
 "人际交往",
 "生活",
 "互联网"
-],
-"weight": 2984,
-"index": 70,
-"followers": 2984,
-"followees": 181
+]
 },
 {
+"followers": 197205,
+"weight": 197205,
+"followees": 184,
+"group": 5,
+"index": 71,
 "name": "李松蔚",
-"group": 8,
 "topic": [
 "生活",
 "抑郁症",
@@ -1922,15 +1192,15 @@
 "自杀",
 "教育",
 "医学"
-],
-"weight": 197190,
-"index": 71,
-"followers": 197190,
-"followees": 184
+]
 },
 {
+"followers": 372134,
+"weight": 372134,
+"followees": 495,
+"group": 5,
+"index": 72,
 "name": "动机在杭州",
-"group": 8,
 "topic": [
 "心理",
 "生活",
@@ -1939,15 +1209,15 @@
 "神经学",
 "佛教",
 "学习"
-],
-"weight": 372099,
-"index": 72,
-"followers": 372099,
-"followees": 495
+]
 },
 {
+"followers": 271377,
+"weight": 271377,
+"followees": 492,
+"group": 5,
+"index": 73,
 "name": "菠菜",
-"group": 8,
 "topic": [
 "情感",
 "两性关系",
@@ -1956,15 +1226,15 @@
 "心理",
 "阅读",
 "文学"
-],
-"weight": 271361,
-"index": 73,
-"followers": 271361,
-"followees": 492
+]
 },
 {
+"followers": 42719,
+"weight": 42719,
+"followees": 143,
+"group": 5,
+"index": 74,
 "name": "冷爱",
-"group": 8,
 "topic": [
 "情感",
 "恋爱",
@@ -1973,15 +1243,15 @@
 "心理学",
 "互联网",
 "小说"
-],
-"weight": 42720,
-"index": 74,
-"followers": 42720,
-"followees": 143
+]
 },
 {
+"followers": 476244,
+"weight": 476244,
+"followees": 961,
+"group": 5,
+"index": 75,
 "name": "采铜",
-"group": 8,
 "topic": [
 "心理学",
 "教育",
@@ -1990,15 +1260,15 @@
 "阅读",
 "两性关系",
 "思维"
-],
-"weight": 476225,
-"index": 75,
-"followers": 476225,
-"followees": 961
+]
 },
 {
+"followers": 125764,
+"weight": 125764,
+"followees": 90,
+"group": 5,
+"index": 76,
 "name": "徐强",
-"group": 8,
 "topic": [
 "人际交往",
 "教育",
@@ -2006,15 +1276,15 @@
 "历史",
 "战争",
 "在线教育"
-],
-"weight": 125759,
-"index": 76,
-"followers": 125759,
-"followees": 90
+]
 },
 {
+"followers": 14214,
+"weight": 14214,
+"followees": 459,
+"group": 5,
+"index": 77,
 "name": "刘大猫",
-"group": 8,
 "topic": [
 "书籍推荐",
 "音乐",
@@ -2023,15 +1293,15 @@
 "文化",
 "历史",
 "爱情"
-],
-"weight": 14214,
-"index": 77,
-"followers": 14214,
-"followees": 459
+]
 },
 {
+"followers": 32814,
+"weight": 32814,
+"followees": 687,
+"group": 6,
+"index": 78,
 "name": "薛天禄",
-"group": 8,
 "topic": [
 "JavaScript",
 "前端开发",
@@ -2040,15 +1310,15 @@
 "Facebook",
 "HTML5",
 "用户界面设计"
-],
-"weight": 32814,
-"index": 78,
-"followers": 32814,
-"followees": 687
+]
 },
 {
+"followers": 156563,
+"weight": 156563,
+"followees": 849,
+"group": 6,
+"index": 79,
 "name": "马力",
-"group": 8,
 "topic": [
 "互联网",
 "交互设计",
@@ -2057,15 +1327,15 @@
 "用户体验",
 "用户界面设计",
 "设计"
-],
-"weight": 156557,
-"index": 79,
-"followers": 156557,
-"followees": 849
+]
 },
 {
+"followers": 143582,
+"weight": 143582,
+"followees": 809,
+"group": 6,
+"index": 81,
 "name": "郑紫阳",
-"group": 8,
 "topic": [
 "苹果公司 (Apple Inc.)",
 "知乎",
@@ -2074,15 +1344,15 @@
 "权力的游戏（美剧）",
 "Simogo",
 "FUI (Fictional User Interfaces)"
-],
-"weight": 143583,
-"index": 81,
-"followers": 143583,
-"followees": 809
+]
 },
 {
+"followers": 20898,
+"weight": 20898,
+"followees": 103,
+"group": 6,
+"index": 82,
 "name": "池建强",
-"group": 8,
 "topic": [
 "OS X",
 "Mac",
@@ -2091,15 +1361,15 @@
 "MacBook Pro",
 "iPhone",
 "iOS"
-],
-"weight": 20897,
-"index": 82,
-"followers": 20897,
-"followees": 103
+]
 },
 {
+"followers": 284758,
+"weight": 284758,
+"followees": 1841,
+"group": 6,
+"index": 83,
 "name": "Fenng",
-"group": 8,
 "topic": [
 "丁香园",
 "创业",
@@ -2108,15 +1378,32 @@
 "知乎",
 "健康",
 "微信"
-],
-"weight": 284754,
-"index": 83,
-"followers": 284754,
-"followees": 1841
+]
 },
 {
+"followers": 20898,
+"weight": 20898,
+"followees": 103,
+"group": 6,
+"index": 84,
+"name": "池建强",
+"topic": [
+"OS X",
+"Mac",
+"程序员",
+"苹果公司 (Apple Inc.)",
+"MacBook Pro",
+"iPhone",
+"iOS"
+]
+},
+{
+"followers": 11265,
+"weight": 11265,
+"followees": 206,
+"group": 6,
+"index": 85,
 "name": "石苏",
-"group": 8,
 "topic": [
 "创业",
 "风险投资（VC）",
@@ -2125,15 +1412,15 @@
 "亚马逊 (Amazon.com)",
 "前端开发",
 "转基因"
-],
-"weight": 11265,
-"index": 85,
-"followers": 11265,
-"followees": 206
+]
 },
 {
+"followers": 323467,
+"weight": 323467,
+"followees": 388,
+"group": 6,
+"index": 86,
 "name": "不鳥萬Rio",
-"group": 8,
 "topic": [
 "苹果公司 (Apple Inc.)",
 "Mac",
@@ -2142,15 +1429,15 @@
 "iPhone",
 "iPad",
 "知乎"
-],
-"weight": 323465,
-"index": 86,
-"followers": 323465,
-"followees": 388
+]
 },
 {
+"followers": 104929,
+"weight": 104929,
+"followees": 247,
+"group": 6,
+"index": 87,
 "name": "luckystar",
-"group": 8,
 "topic": [
 "调查类问题",
 "互联网",
@@ -2159,15 +1446,15 @@
 "古典音乐",
 "情感",
 "知乎用户"
-],
-"weight": 104930,
-"index": 87,
-"followers": 104930,
-"followees": 247
+]
 },
 {
+"followers": 28003,
+"weight": 28003,
+"followees": 199,
+"group": 7,
+"index": 88,
 "name": "夏小琰Shar",
-"group": 8,
 "topic": [
 "摄影",
 "摄影器材",
@@ -2176,15 +1463,15 @@
 "相机",
 "Mac",
 "知乎"
-],
-"weight": 28002,
-"index": 88,
-"followers": 28002,
-"followees": 199
+]
 },
 {
+"followers": 5724,
+"weight": 5724,
+"followees": 619,
+"group": 7,
+"index": 89,
 "name": "邱嘉宁",
-"group": 8,
 "topic": [
 "摄影",
 "调查类问题",
@@ -2193,15 +1480,15 @@
 "摄影师",
 "照片",
 "知乎"
-],
-"weight": 5724,
-"index": 89,
-"followers": 5724,
-"followees": 619
+]
 },
 {
+"followers": 51100,
+"weight": 51100,
+"followees": 285,
+"group": 7,
+"index": 90,
 "name": "windfuture",
-"group": 8,
 "topic": [
 "调查类问题",
 "电影",
@@ -2210,15 +1497,15 @@
 "中国",
 "情感",
 "动漫"
-],
-"weight": 51095,
-"index": 90,
-"followers": 51095,
-"followees": 285
+]
 },
 {
+"followers": 14919,
+"weight": 14919,
+"followees": 108,
+"group": 7,
+"index": 91,
 "name": "赤坂",
-"group": 8,
 "topic": [
 "互联网",
 "亚马逊 (Amazon.com)",
@@ -2227,15 +1514,15 @@
 "高铁",
 "日本",
 "翻译"
-],
-"weight": 14918,
-"index": 91,
-"followers": 14918,
-"followees": 108
+]
 },
 {
+"followers": 275119,
+"weight": 275119,
+"followees": 374,
+"group": 7,
+"index": 92,
 "name": "苏菲",
-"group": 8,
 "topic": [
 "日本",
 "日本文化",
@@ -2244,15 +1531,15 @@
 "留学日本",
 "东京",
 "教育"
-],
-"weight": 275112,
-"index": 92,
-"followers": 275112,
-"followees": 374
+]
 },
 {
+"followers": 203992,
+"weight": 203992,
+"followees": 284,
+"group": 7,
+"index": 93,
 "name": "珵cici",
-"group": 8,
 "topic": [
 "英国",
 "旅游",
@@ -2261,15 +1548,15 @@
 "自由行",
 "奥林匹克运动会‭",
 "互联网"
-],
-"weight": 203987,
-"index": 93,
-"followers": 203987,
-"followees": 284
+]
 },
 {
-"name": "maggie",
+"followers": 523429,
+"weight": 523429,
+"followees": 563,
 "group": 8,
+"index": 94,
+"name": "maggie",
 "topic": [
 "美食",
 "烹饪",
@@ -2278,24 +1565,40 @@
 "儿童教育",
 "茶",
 "设计"
-],
-"weight": 523422,
-"index": 94,
-"followers": 523422,
-"followees": 563
+]
 },
 {
-"name": "张小航",
+"followers": 212378,
+"weight": 212378,
+"followees": 85,
 "group": 8,
-"topic": [],
-"weight": 60668,
+"index": 95,
+"name": "大果",
+"topic": [
+"足球",
+"奥林匹克运动会‭",
+"英格兰足球超级联赛（Premier League）",
+"西班牙足球甲级联赛（La Liga）",
+"皇家马德里（Real Madrid）",
+"Don‘t Starve（游戏）"
+]
+},
+{
+"followers": 60667,
+"weight": 60667,
+"followees": 52,
+"group": 8,
 "index": 96,
-"followers": 60668,
-"followees": 52
+"name": "张小航",
+"topic": []
 },
 {
-"name": "葛巾",
+"followers": 482667,
+"weight": 482667,
+"followees": 255,
 "group": 8,
+"index": 97,
+"name": "葛巾",
 "topic": [
 "珠宝",
 "奢侈品行业",
@@ -2303,15 +1606,15 @@
 "疾病",
 "医学",
 "珠宝设计"
-],
-"weight": 482648,
-"index": 97,
-"followers": 482648,
-"followees": 255
+]
 },
 {
-"name": "安嘉门院",
+"followers": 92775,
+"weight": 92775,
+"followees": 74,
 "group": 8,
+"index": 98,
+"name": "安嘉门院",
 "topic": [
 "奢侈品",
 "生活",
@@ -2320,15 +1623,15 @@
 "音乐",
 "互联网",
 "电子商务"
-],
-"weight": 92762,
-"index": 98,
-"followers": 92762,
-"followees": 74
+]
 },
 {
-"name": "徐博聞",
+"followers": 36491,
+"weight": 36491,
+"followees": 122,
 "group": 8,
+"index": 99,
+"name": "徐博聞",
 "topic": [
 "公益",
 "创业",
@@ -2337,15 +1640,15 @@
 "历史",
 "财务",
 "社会企业"
-],
-"weight": 36491,
-"index": 99,
-"followers": 36491,
-"followees": 122
+]
 },
 {
-"name": "张亮",
+"followers": 653634,
+"weight": 653634,
+"followees": 2165,
 "group": 8,
+"index": 100,
+"name": "张亮",
 "topic": [
 "互联网",
 "创业",
@@ -2354,15 +1657,15 @@
 "移动互联网",
 "投资",
 "风险投资（VC）"
-],
-"weight": 653618,
-"index": 100,
-"followers": 653618,
-"followees": 2165
+]
 },
 {
-"name": "cOMMANDO",
+"followers": 316604,
+"weight": 316604,
+"followees": 222,
 "group": 8,
+"index": 101,
+"name": "cOMMANDO",
 "topic": [
 "游戏",
 "美食",
@@ -2371,15 +1674,15 @@
 "冷知识",
 "北京",
 "手机游戏"
-],
-"weight": 316599,
-"index": 101,
-"followers": 316599,
-"followees": 222
+]
 },
 {
-"name": "talich",
+"followers": 268637,
+"weight": 268637,
+"followees": 121,
 "group": 8,
+"index": 102,
+"name": "talich",
 "topic": [
 "美国",
 "健康",
@@ -2388,15 +1691,15 @@
 "癌症",
 "育儿",
 "食品"
-],
-"weight": 268635,
-"index": 102,
-"followers": 268635,
-"followees": 121
+]
 },
 {
-"name": "yolfilm",
+"followers": 668220,
+"weight": 668220,
+"followees": 184,
 "group": 8,
+"index": 103,
+"name": "yolfilm",
 "topic": [
 "历史",
 "文化",
@@ -2405,15 +1708,15 @@
 "编剧",
 "摇滚乐",
 "冷知识"
-],
-"weight": 668214,
-"index": 103,
-"followers": 668214,
-"followees": 184
+]
 },
 {
-"name": "周晓农",
+"followers": 450020,
+"weight": 450020,
+"followees": 464,
 "group": 8,
+"index": 104,
+"name": "周晓农",
 "topic": [
 "经济",
 "人生",
@@ -2422,28 +1725,28 @@
 "哲学",
 "社会学",
 "心理"
-],
-"weight": 450006,
-"index": 104,
-"followers": 450006,
-"followees": 464
+]
 },
 {
-"name": "Dr How",
+"followers": 403154,
+"weight": 403154,
+"followees": 169,
 "group": 8,
+"index": 105,
+"name": "Dr How",
 "topic": [
 "几何学",
 "组合数学（Combinatorics）",
 "离散数学"
-],
-"weight": 403153,
-"index": 105,
-"followers": 403153,
-"followees": 169
+]
 },
 {
-"name": "道哥",
+"followers": 31899,
+"weight": 31899,
+"followees": 229,
 "group": 8,
+"index": 106,
+"name": "道哥",
 "topic": [
 "网络安全",
 "黑客 (Hacker)",
@@ -2452,15 +1755,15 @@
 "信息技术（IT）",
 "职场",
 "计算机网络"
-],
-"weight": 31898,
-"index": 106,
-"followers": 31898,
-"followees": 229
+]
 },
 {
-"name": "Reason",
+"followers": 8715,
+"weight": 8715,
+"followees": 294,
 "group": 8,
+"index": 107,
+"name": "Reason",
 "topic": [
 "调查类问题",
 "生活",
@@ -2469,28 +1772,45 @@
 "爱情",
 "学习",
 "人际交往"
-],
-"weight": 8715,
-"index": 107,
-"followers": 8715,
-"followees": 294
+]
 },
 {
-"name": "骆启明",
+"followers": 11265,
+"weight": 11265,
+"followees": 206,
 "group": 8,
+"index": 108,
+"name": "石苏",
+"topic": [
+"创业",
+"风险投资（VC）",
+"Scala",
+"大数据",
+"亚马逊 (Amazon.com)",
+"前端开发",
+"转基因"
+]
+},
+{
+"followers": 19762,
+"weight": 19762,
+"followees": 1562,
+"group": 8,
+"index": 109,
+"name": "骆启明",
 "topic": [
 "成人内容",
 "感情",
 "个人咨询"
-],
-"weight": 19762,
-"index": 109,
-"followers": 19762,
-"followees": 1562
+]
 },
 {
-"name": "梁边妖",
+"followers": 444441,
+"weight": 444441,
+"followees": 993,
 "group": 8,
+"index": 110,
+"name": "梁边妖",
 "topic": [
 "电影",
 "调查类问题",
@@ -2499,15 +1819,15 @@
 "编剧",
 "影视评论",
 "文学"
-],
-"weight": 444416,
-"index": 110,
-"followers": 444416,
-"followees": 993
+]
 },
 {
-"name": "李淼",
+"followers": 564368,
+"weight": 564368,
+"followees": 771,
 "group": 8,
+"index": 111,
+"name": "李淼",
 "topic": [
 "日本",
 "股票",
@@ -2516,15 +1836,32 @@
 "投资",
 "历史",
 "经济学"
-],
-"weight": 564351,
-"index": 111,
-"followers": 564351,
-"followees": 771
+]
 },
 {
-"name": "万维钢",
+"followers": 32231,
+"weight": 32231,
+"followees": 240,
 "group": 8,
+"index": 112,
+"name": "跳日天",
+"topic": [
+"音乐",
+"唱歌",
+"房地产",
+"阅读",
+"逻辑",
+"数学",
+"魔兽世界"
+]
+},
+{
+"followers": 6995,
+"weight": 6995,
+"followees": 1,
+"group": 8,
+"index": 113,
+"name": "万维钢",
 "topic": [
 "阅读",
 "学习",
@@ -2533,15 +1870,15 @@
 "电子阅读",
 "物理学",
 "经济学"
-],
-"weight": 6995,
-"index": 113,
-"followers": 6995,
-"followees": 1
+]
 },
 {
-"name": "谢熊猫君",
+"followers": 323321,
+"weight": 323321,
+"followees": 290,
 "group": 8,
+"index": 114,
+"name": "谢熊猫君",
 "topic": [
 "美食",
 "烹饪",
@@ -2550,15 +1887,15 @@
 "教育",
 "互联网",
 "投资"
-],
-"weight": 323309,
-"index": 114,
-"followers": 323309,
-"followees": 290
+]
 },
 {
-"name": "sharnodo",
+"followers": 20173,
+"weight": 20173,
+"followees": 231,
 "group": 8,
+"index": 115,
+"name": "sharnodo",
 "topic": [
 "调查类问题",
 "美食",
@@ -2567,15 +1904,15 @@
 "创业",
 "日本",
 "广告"
-],
-"weight": 20172,
-"index": 115,
-"followers": 20172,
-"followees": 231
+]
 },
 {
-"name": "灰子",
+"followers": 70456,
+"weight": 70456,
+"followees": 318,
 "group": 8,
+"index": 116,
+"name": "灰子",
 "topic": [
 "烹饪",
 "美食",
@@ -2584,15 +1921,15 @@
 "杂志",
 "摄影",
 "大学生活"
-],
-"weight": 70454,
-"index": 116,
-"followers": 70454,
-"followees": 318
+]
 },
 {
-"name": "Vi维",
+"followers": 1516,
+"weight": 1516,
+"followees": 217,
 "group": 8,
+"index": 117,
+"name": "Vi维",
 "topic": [
 "美食",
 "生活",
@@ -2601,15 +1938,15 @@
 "钢琴",
 "摄影",
 "数学"
-],
-"weight": 1516,
-"index": 117,
-"followers": 1516,
-"followees": 217
+]
 },
 {
+"followers": 17934,
+"weight": 17934,
+"followees": 867,
+"group": 9,
+"index": 118,
 "name": "琉森",
-"group": 8,
 "topic": [
 "美食",
 "烹饪",
@@ -2618,15 +1955,32 @@
 "摄影",
 "饮食",
 "两性关系"
-],
-"weight": 17934,
-"index": 118,
-"followers": 17934,
-"followees": 867
+]
 },
 {
+"followers": 738404,
+"weight": 738404,
+"followees": 9043,
+"group": 9,
+"index": 119,
+"name": "黄继新",
+"topic": [
+"知乎指南",
+"苹果公司 (Apple Inc.)",
+"创新工场",
+"iPhone",
+"风险投资（VC）",
+"电影",
+"新浪微博"
+]
+},
+{
+"followers": 24194,
+"weight": 24194,
+"followees": 1029,
+"group": 9,
+"index": 120,
 "name": "湖玛 Humar",
-"group": 8,
 "topic": [
 "热门新闻",
 "美食",
@@ -2635,15 +1989,15 @@
 "职业",
 "大学",
 "播客 (Podcast)"
-],
-"weight": 24194,
-"index": 120,
-"followers": 24194,
-"followees": 1029
+]
 },
 {
+"followers": 29181,
+"weight": 29181,
+"followees": 726,
+"group": 9,
+"index": 121,
 "name": "钢盅郭子",
-"group": 8,
 "topic": [
 "苹果公司 (Apple Inc.)",
 "知乎",
@@ -2652,15 +2006,15 @@
 "Microsoft Windows",
 "谷歌 (Google)",
 "Mac"
-],
-"weight": 29180,
-"index": 121,
-"followers": 29180,
-"followees": 726
+]
 },
 {
+"followers": 3968,
+"weight": 3968,
+"followees": 107,
+"group": 9,
+"index": 122,
 "name": "孙竟",
-"group": 8,
 "topic": [
 "Python",
 "iOS",
@@ -2669,15 +2023,15 @@
 "情感",
 "JavaScript",
 "OS X"
-],
-"weight": 3968,
-"index": 122,
-"followers": 3968,
-"followees": 107
+]
 },
 {
-"name": "魏颖",
+"followers": 7647,
+"weight": 7647,
+"followees": 110,
 "group": 9,
+"index": 123,
+"name": "魏颖",
 "topic": [
 "知乎",
 "知乎吉祥物",
@@ -2686,11 +2040,781 @@
 "市场营销",
 "知乎指南",
 "校园招聘"
+]
+}
 ],
-"weight": 7647,
-"index": 123,
-"followers": 7647,
-"followees": 110
+"edges": [
+{
+"target": 120,
+"source": 122
+},
+{
+"target": 67,
+"source": 122
+},
+{
+"target": 83,
+"source": 121
+},
+{
+"target": 118,
+"source": 120
+},
+{
+"target": 119,
+"source": 120
+},
+{
+"target": 117,
+"source": 119
+},
+{
+"target": 40,
+"source": 118
+},
+{
+"target": 90,
+"source": 118
+},
+{
+"target": 116,
+"source": 117
+},
+{
+"target": 115,
+"source": 117
+},
+{
+"target": 115,
+"source": 116
+},
+{
+"target": 113,
+"source": 116
+},
+{
+"target": 113,
+"source": 115
+},
+{
+"target": 114,
+"source": 115
+},
+{
+"target": 109,
+"source": 114
+},
+{
+"target": 113,
+"source": 114
+},
+{
+"target": 100,
+"source": 113
+},
+{
+"target": 93,
+"source": 113
+},
+{
+"target": 111,
+"source": 112
+},
+{
+"target": 106,
+"source": 112
+},
+{
+"target": 97,
+"source": 111
+},
+{
+"target": 41,
+"source": 111
+},
+{
+"target": 102,
+"source": 110
+},
+{
+"target": 60,
+"source": 110
+},
+{
+"target": 101,
+"source": 109
+},
+{
+"target": 106,
+"source": 109
+},
+{
+"target": 63,
+"source": 108
+},
+{
+"target": 99,
+"source": 107
+},
+{
+"target": 99,
+"source": 107
+},
+{
+"target": 89,
+"source": 106
+},
+{
+"target": 97,
+"source": 106
+},
+{
+"target": 99,
+"source": 105
+},
+{
+"target": 63,
+"source": 103
+},
+{
+"target": 55,
+"source": 103
+},
+{
+"target": 98,
+"source": 102
+},
+{
+"target": 77,
+"source": 102
+},
+{
+"target": 53,
+"source": 101
+},
+{
+"target": 97,
+"source": 101
+},
+{
+"target": 45,
+"source": 100
+},
+{
+"target": 93,
+"source": 100
+},
+{
+"target": 97,
+"source": 99
+},
+{
+"target": 98,
+"source": 99
+},
+{
+"target": 17,
+"source": 98
+},
+{
+"target": 84,
+"source": 98
+},
+{
+"target": 96,
+"source": 97
+},
+{
+"target": 91,
+"source": 97
+},
+{
+"target": 82,
+"source": 96
+},
+{
+"target": 46,
+"source": 94
+},
+{
+"target": 92,
+"source": 94
+},
+{
+"target": 49,
+"source": 93
+},
+{
+"target": 92,
+"source": 93
+},
+{
+"target": 28,
+"source": 92
+},
+{
+"target": 90,
+"source": 91
+},
+{
+"target": 27,
+"source": 91
+},
+{
+"target": 86,
+"source": 90
+},
+{
+"target": 84,
+"source": 90
+},
+{
+"target": 88,
+"source": 89
+},
+{
+"target": 88,
+"source": 89
+},
+{
+"target": 87,
+"source": 88
+},
+{
+"target": 86,
+"source": 88
+},
+{
+"target": 39,
+"source": 87
+},
+{
+"target": 33,
+"source": 87
+},
+{
+"target": 62,
+"source": 86
+},
+{
+"target": 79,
+"source": 86
+},
+{
+"target": 83,
+"source": 85
+},
+{
+"target": 83,
+"source": 85
+},
+{
+"target": 82,
+"source": 84
+},
+{
+"target": 66,
+"source": 84
+},
+{
+"target": 81,
+"source": 83
+},
+{
+"target": 81,
+"source": 83
+},
+{
+"target": 65,
+"source": 82
+},
+{
+"target": 2,
+"source": 81
+},
+{
+"target": 40,
+"source": 80
+},
+{
+"target": 33,
+"source": 80
+},
+{
+"target": 74,
+"source": 79
+},
+{
+"target": 31,
+"source": 79
+},
+{
+"target": 31,
+"source": 78
+},
+{
+"target": 3,
+"source": 77
+},
+{
+"target": 62,
+"source": 77
+},
+{
+"target": 70,
+"source": 76
+},
+{
+"target": 75,
+"source": 76
+},
+{
+"target": 74,
+"source": 75
+},
+{
+"target": 71,
+"source": 75
+},
+{
+"target": 73,
+"source": 74
+},
+{
+"target": 73,
+"source": 74
+},
+{
+"target": 72,
+"source": 73
+},
+{
+"target": 72,
+"source": 73
+},
+{
+"target": 71,
+"source": 72
+},
+{
+"target": 70,
+"source": 71
+},
+{
+"target": 70,
+"source": 71
+},
+{
+"target": 66,
+"source": 70
+},
+{
+"target": 28,
+"source": 70
+},
+{
+"target": 38,
+"source": 68
+},
+{
+"target": 38,
+"source": 67
+},
+{
+"target": 36,
+"source": 67
+},
+{
+"target": 40,
+"source": 66
+},
+{
+"target": 59,
+"source": 65
+},
+{
+"target": 59,
+"source": 65
+},
+{
+"target": 62,
+"source": 64
+},
+{
+"target": 52,
+"source": 64
+},
+{
+"target": 57,
+"source": 63
+},
+{
+"target": 58,
+"source": 63
+},
+{
+"target": 54,
+"source": 62
+},
+{
+"target": 61,
+"source": 62
+},
+{
+"target": 60,
+"source": 61
+},
+{
+"target": 59,
+"source": 61
+},
+{
+"target": 59,
+"source": 60
+},
+{
+"target": 57,
+"source": 60
+},
+{
+"target": 58,
+"source": 59
+},
+{
+"target": 58,
+"source": 59
+},
+{
+"target": 50,
+"source": 58
+},
+{
+"target": 52,
+"source": 58
+},
+{
+"target": 48,
+"source": 57
+},
+{
+"target": 56,
+"source": 57
+},
+{
+"target": 50,
+"source": 56
+},
+{
+"target": 53,
+"source": 56
+},
+{
+"target": 51,
+"source": 55
+},
+{
+"target": 54,
+"source": 55
+},
+{
+"target": 45,
+"source": 54
+},
+{
+"target": 51,
+"source": 54
+},
+{
+"target": 51,
+"source": 53
+},
+{
+"target": 12,
+"source": 52
+},
+{
+"target": 47,
+"source": 51
+},
+{
+"target": 47,
+"source": 51
+},
+{
+"target": 33,
+"source": 50
+},
+{
+"target": 49,
+"source": 50
+},
+{
+"target": 39,
+"source": 49
+},
+{
+"target": 43,
+"source": 49
+},
+{
+"target": 10,
+"source": 48
+},
+{
+"target": 36,
+"source": 46
+},
+{
+"target": 44,
+"source": 45
+},
+{
+"target": 43,
+"source": 45
+},
+{
+"target": 43,
+"source": 44
+},
+{
+"target": 37,
+"source": 44
+},
+{
+"target": 42,
+"source": 43
+},
+{
+"target": 42,
+"source": 43
+},
+{
+"target": 41,
+"source": 42
+},
+{
+"target": 39,
+"source": 41
+},
+{
+"target": 10,
+"source": 41
+},
+{
+"target": 18,
+"source": 40
+},
+{
+"target": 29,
+"source": 40
+},
+{
+"target": 38,
+"source": 39
+},
+{
+"target": 38,
+"source": 39
+},
+{
+"target": 37,
+"source": 38
+},
+{
+"target": 35,
+"source": 38
+},
+{
+"target": 36,
+"source": 37
+},
+{
+"target": 29,
+"source": 37
+},
+{
+"target": 25,
+"source": 36
+},
+{
+"target": 34,
+"source": 35
+},
+{
+"target": 17,
+"source": 35
+},
+{
+"target": 32,
+"source": 34
+},
+{
+"target": 29,
+"source": 34
+},
+{
+"target": 20,
+"source": 33
+},
+{
+"target": 23,
+"source": 33
+},
+{
+"target": 29,
+"source": 32
+},
+{
+"target": 18,
+"source": 31
+},
+{
+"target": 28,
+"source": 29
+},
+{
+"target": 28,
+"source": 29
+},
+{
+"target": 23,
+"source": 28
+},
+{
+"target": 26,
+"source": 28
+},
+{
+"target": 23,
+"source": 27
+},
+{
+"target": 23,
+"source": 27
+},
+{
+"target": 25,
+"source": 26
+},
+{
+"target": 16,
+"source": 26
+},
+{
+"target": 24,
+"source": 25
+},
+{
+"target": 23,
+"source": 25
+},
+{
+"target": 23,
+"source": 24
+},
+{
+"target": 21,
+"source": 24
+},
+{
+"target": 22,
+"source": 23
+},
+{
+"target": 17,
+"source": 23
+},
+{
+"target": 21,
+"source": 22
+},
+{
+"target": 21,
+"source": 22
+},
+{
+"target": 20,
+"source": 21
+},
+{
+"target": 20,
+"source": 21
+},
+{
+"target": 16,
+"source": 20
+},
+{
+"target": 17,
+"source": 20
+},
+{
+"target": 14,
+"source": 19
+},
+{
+"target": 3,
+"source": 18
+},
+{
+"target": 5,
+"source": 17
+},
+{
+"target": 11,
+"source": 16
+},
+{
+"target": 13,
+"source": 16
+},
+{
+"target": 4,
+"source": 14
+},
+{
+"target": 13,
+"source": 14
+},
+{
+"target": 4,
+"source": 13
+},
+{
+"target": 3,
+"source": 13
+},
+{
+"target": 10,
+"source": 11
+},
+{
+"target": 10,
+"source": 11
+},
+{
+"target": 8,
+"source": 10
+},
+{
+"target": 9,
+"source": 10
+},
+{
+"target": 3,
+"source": 5
+},
+{
+"target": 3,
+"source": 4
+},
+{
+"target": 1,
+"source": 4
+},
+{
+"target": 2,
+"source": 3
 }
 ]
 }
