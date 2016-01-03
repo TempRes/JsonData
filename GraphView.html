@@ -1,0 +1,262 @@
+<html>
+	<head>
+		<title>Graph View</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<script src="Algorithm.js"></script>
+	</head>
+	<body>
+		<h4 id = "dist">TotalDistance: 0</h4>
+		<p id = "info"></p>
+		<button type="button" onclick="Init()">Init</button>
+		<input type="text" id = "tree" value = "root"></input>
+		<input type="submit" value="MinSpaningTree" onclick="MinSpaningTree()"></button>
+		<input type="text" id = "path_source" value = "source"></input>
+		<input type="text" id = "path_target" value = "target"></input>
+		<input type="submit" value="ShortestPath" onclick="ShortestPath()"></button>
+		<div>
+			<svg></svg>
+		</div>
+		<script>
+			var data;
+			var nodes;
+			var edges;
+			var width = window.innerWidth - 30;
+			var height = window.innerHeight - 120;
+			var nodes_color = new Array();
+			var edges_color = new Array();
+			var linkcolor = "#ccc";
+			var highlightcolor = "steelblue";
+			var color = d3.scale.category10();
+			var svg_edges;
+			var svg_nodes;
+			var svg_texts;
+			var force;
+			var drag;
+			var adjMatrix;
+			var indexMatrix;
+			
+			//设置画布
+			var svg = d3.select("svg")
+						.attr("width",width)
+						.attr("height",height);
+			
+			//读取json文件
+			d3.json("https://raw.githubusercontent.com/TempRes/JsonData/master/local.json", function(error, json) {
+				if (error) return console.warn(error);
+				data = json;
+				nodes = data.nodes;
+				edges = data.edges;
+				
+				//创建邻接矩阵
+				adjMatrix = new Array();
+				for (var i = 0; i < nodes.length; i++){
+					adjMatrix[i] = new Array();
+					for (var j = 0; j < nodes.length; j++){
+						adjMatrix[i][j] = INF;
+					}
+				}
+				for (var i = 0; i < edges.length; i++){
+					adjMatrix[edges[i]['source']][edges[i]['target']] = edges[i].weight;
+					adjMatrix[edges[i]['target']][edges[i]['source']] = edges[i].weight;
+				}
+				//创建编号矩阵
+				indexMatrix = new Array();
+				for (var i = 0; i < nodes.length; i++){
+					indexMatrix[i] = new Array();
+					for (var j = 0; j < nodes.length; j++){
+						indexMatrix[i][j] = -1;
+					}
+				}
+				for (var i = 0; i < edges.length; i++){
+					indexMatrix[edges[i]['source']][edges[i]['target']] = i;
+					indexMatrix[edges[i]['target']][edges[i]['source']] = i;
+				}
+				//添加连线
+				svg_edges = svg.selectAll("line")
+									.data(edges)
+									.enter()
+									.append("line")
+									.style("stroke",linkcolor)
+									.style("stroke-width", function(d, i){
+										return d.weight + 2;
+									});
+
+				//添加节点
+				svg_nodes = svg.selectAll("circle")
+									.data(nodes)
+									.enter()
+									.append("circle")
+									.attr("r",15)
+									.style("fill",function(d,i){
+										return color(d.group);
+									})
+
+				//添加描述节点的文字
+				svg_texts = svg.selectAll("text")
+									.data(nodes)
+									.enter()
+									.append("text")
+									.style("fill", "black")
+									.attr("dx", 10)
+									.attr("dy", 4)
+									.text(function(d){
+										return d.name;
+									});
+				
+				//设置力导向图
+				force = d3.layout.force()
+						.nodes(nodes)		//指定节点数组
+						.links(edges)		//指定连线数组
+						.size([width,height])	//指定范围
+						.linkDistance(10)		//指定连线长度
+						.charge([-400])			//相互之间的作用力
+						.gravity(0.2);			//指定重力
+
+				Init();	//开始作用
+				svg_nodes.call(force.drag);	//使得节点能够拖动
+				svg_nodes.on("mousedown", function(d, i){
+				  if (d3.event.defaultPrevented) return;
+				  document.getElementById("info").innerHTML = "name: "+d.name+" index: "+d.index+" followers: "+d.followers+" followees: "+d.followees+" group:"+d.group+" topics: "+d.topic;
+				});							//点击事件
+				
+				console.log(nodes);
+				console.log(edges);
+
+				force.on("tick", function(){	//对于每一个时间间隔
+
+					 //更新连线坐标
+					 svg_edges.attr("x1",function(d){ return d.source.x; })
+							.attr("y1",function(d){ return d.source.y; })
+							.attr("x2",function(d){ return d.target.x; })
+							.attr("y2",function(d){ return d.target.y; })
+							.style("stroke", function(d, i){
+								return edges_color[i];
+							});
+							
+					 //更新节点坐标
+					 svg_nodes.attr("cx",function(d){ return d.x; })
+							.attr("cy",function(d){ return d.y; })
+							.style("fill", function(d, i){
+								return nodes_color[i];
+							});
+
+					 //更新文字坐标
+					 svg_texts.attr("x", function(d){ return d.x; })
+						.attr("y", function(d){ return d.y; });
+				});
+			});
+			
+			/*核心算法-按钮*/			
+			function Init(){
+				for (var i = 0; i < edges.length; i++){
+					edges_color[i] = linkcolor;
+				}
+				for (var i = 0; i < nodes.length; i++){
+					nodes_color[i] = color(nodes[i].group);
+				}
+				//document.getElementById("path_source").value = "source";
+				//document.getElementById("path_target").value = "target";
+				//document.getElementById("tree").value = "root";
+				force.start();
+			}
+			
+			function MinSpaningTree(){
+				//get root
+				var value = document.getElementById("tree").value;
+				var root = -1;
+				for (var i = 0; i < nodes.length; i++){
+					if (nodes[i]['name'] == value){
+						root = i;
+						break;
+					}
+				}
+				if (root == -1){
+					root = parseInt(value);
+					if (!root){
+						root = -1;
+					}
+				}
+				//Prim
+				var result = Prim(root, adjMatrix, indexMatrix, nodes.length);
+				//color edge
+				for (var i = 0; i < edges.length; i++){
+					edges_color[i] = "#EEE";
+				}
+				for (var i = 0; i < nodes.length; i++){
+					nodes_color[i] = "#DDD";
+				}
+				if (result.edgeSet.length){
+					for (var i = 0; i < result.edgeSet.length; i++){
+						edges_color[result.edgeSet[i]] = highlightcolor;
+						var e = edges[result.edgeSet[i]];
+						nodes_color[e['source'].index] = color(nodes[e['source'].index].group);
+						nodes_color[e['target'].index] = color(nodes[e['target'].index].group);
+					}
+				} else{
+					if (root != -1){
+						nodes_color[root] = color(nodes[root].group);
+					}
+				}
+				document.getElementById("dist").innerHTML = "TotalDistance: " + result.totalDist;
+				force.start();
+			}
+			
+			function ShortestPath(){
+				//get source and target
+				var value1 = document.getElementById("path_source").value;
+				var value2 = document.getElementById("path_target").value;
+				var source = -1;
+				var target = -1;
+				for (var i = 0; i < nodes.length; i++){
+					if (nodes[i]['name'] == value1){
+						source = i;
+						break;
+					}
+				}
+				if (source == -1){
+					source = parseInt(value1);
+					if (!source){
+						source = -1;
+					}
+				}
+				for (var i = 0; i < nodes.length; i++){
+					if (nodes[i]['name'] == value2){
+						target = i;
+						break;
+					}
+				}
+				if (target == -1){
+					target = parseInt(value2);
+					if (!target){
+						target = -1;
+					}
+				}
+				//Dijkstra
+				var result = Dijkstra(source, target, adjMatrix, indexMatrix, nodes.length);
+				//赋值
+				for (var i = 0; i < edges.length; i++){
+					edges_color[i] = "#EEE";
+				}
+				for (var i = 0; i < nodes.length; i++){
+					nodes_color[i] = "#DDD";
+				}
+				if (result.edgeSet.length){
+					for (var i = 0; i < result.edgeSet.length; i++){
+						edges_color[result.edgeSet[i]] = highlightcolor;
+						var e = edges[result.edgeSet[i]];
+						nodes_color[e['source'].index] = color(nodes[e['source'].index].group);
+						nodes_color[e['target'].index] = color(nodes[e['target'].index].group);
+					}
+				} else{
+					if ((source != -1)&&(target != -1)){
+						nodes_color[root] = color(nodes[root].group);
+					}
+				}
+				document.getElementById("dist").innerHTML = "TotalDistance: " + result.totalDist;
+				force.start();
+			}
+		</script>
+	</body>
+</html>
