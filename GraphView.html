@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="http://d3js.org/d3.v3.js"></script>
-		<script src="https://raw.githubusercontent.com/TempRes/JsonData/master/Algorithm.js"></script>
+		<script src="https://rawgit.com/TempRes/JsonData/master/Algorithm.js"></script>
 	</head>
 	<body>
 		<h4 id = "dist">TotalDistance: 0</h4>
@@ -43,7 +43,7 @@
 						.attr("height",height);
 			
 			//读取json文件
-			d3.json("https://raw.githubusercontent.com/TempRes/JsonData/master/local.json", function(error, json) {
+			d3.json("https://rawgit.com/TempRes/JsonData/master/local.json", function(error, json) {
 				if (error) return console.warn(error);
 				data = json;
 				nodes = data.nodes;
