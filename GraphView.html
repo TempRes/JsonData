@@ -53,7 +53,7 @@
 						.attr("height",height);
 			
 			//读取json文件
-			d3.json("https://rawgit.com/TempRes/JsonData/master/local.json", function(error, json) {
+			d3.json("local.json", function(error, json) {
 				if (error) return console.warn(error);
 				data = json;
 				nodes = data.nodes;
