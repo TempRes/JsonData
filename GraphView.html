@@ -3,7 +3,7 @@
 		<title>Graph View</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="d3.min.js"></script>
+		<script src="http://d3js.org/d3.v3.js"></script>
 		<script src="Algorithm.js"></script>
 	</head>
 	<body>
@@ -15,6 +15,8 @@
 		<input type="text" id = "path_source" value = "source"></input>
 		<input type="text" id = "path_target" value = "target"></input>
 		<input type="submit" value="ShortestPath" onclick="ShortestPath()"></button>
+		<button type="button" onclick="BCentral()">BetweennessCentrality</button>
+		<button type="button" onclick="CCentral()">ClosenessCentrality</button>
 		<div>
 			<svg></svg>
 		</div>
@@ -36,6 +38,14 @@
 			var drag;
 			var adjMatrix;
 			var indexMatrix;
+			var BCColor = new Array();
+			for (var i = 1; i < 4; i++){
+				BCColor.push("#"+(i*64).toString(16)+"00FF");
+			}
+			BCColor.push("#FF00FF");
+			for (var i = 1; i < 4; i++){
+				BCColor.push("#FF00"+(255-i*64).toString(16));
+			}
 			
 			//设置画布
 			var svg = d3.select("svg")
@@ -43,7 +53,7 @@
 						.attr("height",height);
 			
 			//读取json文件
-			d3.json("local.json", function(error, json) {
+			d3.json("https://rawgit.com/TempRes/JsonData/master/local.json", function(error, json) {
 				if (error) return console.warn(error);
 				data = json;
 				nodes = data.nodes;
@@ -255,6 +265,48 @@
 					}
 				}
 				document.getElementById("dist").innerHTML = "TotalDistance: " + result.totalDist;
+				force.start();
+			}
+			
+			function BCentral(){
+				var result = BetweenCentrality(edges, adjMatrix, indexMatrix, nodes.length);
+				for (var i = 0; i < edges.length; i++){
+					edges_color[i] = linkcolor;
+				}
+				//按比例分配颜色
+				var max = 1500, min = 500;
+				for (var i = 0; i < nodes.length; i++){
+					if (result.betweenArray[i] == 0){
+						nodes_color[i] = BCColor[0];
+					} else if (result.betweenArray[i] < min){
+						nodes_color[i] = BCColor[0];
+					} else if (result.betweenArray[i] > max){
+						nodes_color[i] = BCColor[6];
+					} else{
+						nodes_color[i] = BCColor[Math.floor((result.betweenArray[i] - min)/200)];
+					}
+				}
+				force.start();
+			}
+			
+			function CCentral(){
+				var result = CloseCentrality(adjMatrix, indexMatrix, nodes.length);
+				for (var i = 0; i < edges.length; i++){
+					edges_color[i] = linkcolor;
+				}
+				//按比例分配颜色
+				var max = 900, min = 600;
+				for (var i = 0; i < nodes.length; i++){
+					if (result.closeArray[i] == 0){
+						nodes_color[i] = BCColor[6];
+					} else if (result.closeArray[i] < min){
+						nodes_color[i] = BCColor[0];
+					} else if (result.closeArray[i] > max){
+						nodes_color[i] = BCColor[6];
+					} else{
+						nodes_color[i] = BCColor[Math.floor((result.closeArray[i] - min)/60)];
+					}
+				}
 				force.start();
 			}
 		</script>
